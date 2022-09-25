@@ -1,0 +1,1 @@
+{"all_sub_packages": [{"name": "attrs", "version": "22.1.0", "required": ">=17.4.0", "resolved": true}, {"name": "pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,", "version": "Unknown", "required": ">=0.14.0", "resolved": true}], "package_version": "Unknown", "error": false, "exception": null}

@@ -1,0 +1,67 @@
+/*******************************
+* ACCORDION WITH TOGGLE ICONS
+* Does not work properly if "in" is added after "collapse".
+*******************************/
+.accordion-group .accordion {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+    background-color: white;
+}
+
+.accordion-default > .accordion-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #FAFAFA;
+    border-color: #EEEEEE;
+}
+
+.accordion-title {
+    font-size: 14px;
+}
+
+.accordion-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+
+.accordion-default > .accordion-heading + .accordion-collapse > .accordion-body {
+    border-color: #EEEEEE;
+    background-color: #26a69a;
+    margin: 1.8%;
+    height: 5%;
+    
+}
+
+/* ----- v CAN BE DELETED v ----- */
+body {
+background-color: #26a69a;
+}
+
+.demo {
+padding-top: 60px;
+padding-bottom: 110px;
+}
+
+.demo-footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+padding: 15px;
+background-color: #212121;
+text-align: center;
+}
+
+.demo-footer > a {
+text-decoration: none;
+font-weight: bold;
+font-size: 14px;
+color: #fff;
+}
